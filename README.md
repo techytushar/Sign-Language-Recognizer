@@ -2,12 +2,14 @@
 
 A simple deep learning project which uses CNNs to recognize the digits from the hand gesture.
 
+**Demo Video:** https://youtu.be/exHGP5kIlDA
+
 ## Project Details
 
 * **API :** Keras
 * **Backend:** Tensorflow
 * **Dataset:** https://github.com/ardamavi/Sign-Language-Digits-Dataset + Some custom images
-* **Model Architecture:** CNN->MaxPool->CNN->MaxPool->Flatten->Dense(512)->Dense(128)->Output(10)
+* **Model Architecture:** Conv->MaxPool->Conv->MaxPool->Flatten->Dense(512)->Dense(128)->Output(10)
 * **Python Version:** >=3.6
 
 ## How to use
